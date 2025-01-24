@@ -2,7 +2,6 @@ import express from 'express';
 import { config } from 'dotenv';
 import cors from 'cors';
 import connectDB from './db.js'; // Ensure `.js` extension is included
-import bodyParser from 'body-parser';
 
 import patientRoutes from './routes/patientRoutes.js';
 import doctorRoutes from './routes/doctorRoutes.js';
