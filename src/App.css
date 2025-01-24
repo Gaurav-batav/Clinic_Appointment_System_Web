@@ -1,0 +1,76 @@
+       
+button.delete-button{
+  background-color: red; 
+  color: white; /* Default text color */
+  border: none; /* Remove border */
+  padding: 8px 16px; /* Add some padding */
+  border-radius: 5px; /* Optional: rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition effect */
+}
+
+button.delete-button:hover {
+  background-color: rgb(246, 120, 120); 
+  color: #fff; /* Optional: change text color */
+}
+  button.my-button {
+    background-color: darkgreen; 
+    color: white; /* Default text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Add some padding */
+    border-radius: 5px; /* Optional: rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition effect */
+  }
+  
+  button.my-button:hover {
+    background-color: rgb(2, 147, 2); 
+    color: #fff; /* Optional: change text color */
+  }
+  .heading {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    font-weight: 700; /* Bold font */
+    color: #4CAF50; /* Theme color (adjust as needed) */
+    margin: 20px 0; /* Add consistent spacing */
+    text-align: center; /* Center-align the heading */
+    line-height: 1.2; /* Line height for better readability */
+    text-transform: uppercase; /* Optional: Make text uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    border-bottom: 3px solid #4CAF50; /* Optional: Underline the heading */
+    padding-bottom: 10px; /* Add space below the text */
+}
+
+
+/*----- ADMIN SECTON CSS--------*/
+.my-button {
+  background-color: green; /* Green color */
+  color: white; /* Text color */
+  border: none; /* Optional: remove border */
+  padding: 10px 20px; /* Optional: add padding */
+  border-radius: 5px; /* Optional: round corners */
+  cursor: pointer; /* Change cursor to pointer */
+}
+.container {
+  margin-top: 100px;
+}
+
+.navbar{
+  margin-top: -150px;
+  padding-top: 200px;
+}
+
+/*----- TABLE CSS--------*/
+
+.custom-table th,
+.custom-table td {
+  padding: 8px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size for better fit */
+  text-align: center; /* Center-align the text */
+}
+
+.custom-table th {
+  background-color: #f7dc6f ; /* Light gray for table headers */
+}
+
+
